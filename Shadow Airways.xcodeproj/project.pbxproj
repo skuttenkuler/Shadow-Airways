@@ -13,6 +13,8 @@
 		5F9D0CEC26BCEC6C00A3D051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D0CEB26BCEC6C00A3D051 /* Preview Assets.xcassets */; };
 		5F9D0CF726BCEC6C00A3D051 /* Shadow_AirwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CF626BCEC6C00A3D051 /* Shadow_AirwaysTests.swift */; };
 		5F9D0D0226BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D0126BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift */; };
+		5F9D0D1826BCF00A00A3D051 /* BookTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */; };
+		5F9D0D1D26BCF01B00A3D051 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		5F9D0CFD26BCEC6D00A3D051 /* Shadow AirwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shadow AirwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D0D0126BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_AirwaysUITests.swift; sourceTree = "<group>"; };
 		5F9D0D0326BCEC6D00A3D051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketView.swift; sourceTree = "<group>"; };
+		5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				5F9D0CE826BCEC6C00A3D051 /* Assets.xcassets */,
 				5F9D0CED26BCEC6C00A3D051 /* Info.plist */,
 				5F9D0CEA26BCEC6C00A3D051 /* Preview Content */,
+				5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */,
+				5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */,
 			);
 			path = "Shadow Airways";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9D0D1D26BCF01B00A3D051 /* TicketView.swift in Sources */,
+				5F9D0D1826BCF00A00A3D051 /* BookTicketView.swift in Sources */,
 				5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */,
 				5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */,
 			);

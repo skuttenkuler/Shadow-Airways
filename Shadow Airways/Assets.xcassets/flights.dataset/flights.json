@@ -1,0 +1,428 @@
+data = [
+        {
+        "state": "Alabama",
+        "cities": {
+            "Birmingham" : "BHM",
+            "Dothan" : "DHN",
+            "Huntsville":"HSV",
+            "Mobile":"MOB",
+            "Montgomery":"MGM"
+            }
+        },
+        {
+        "state": "Alaska",
+        "cities": {
+            "Anchorage":"ANC",
+            "Fairbanks":"FAI",
+            "Juneau":"JNU"
+            }
+        },
+        {
+        "state": "Arizona",
+        "cities": {
+            "Flagstaff":"FLG",
+            "Phoenix ":"PHX",
+            "Tucson":"TUS",
+            "Yuma":"YUM"
+            }
+        },
+        {
+        "state": "Arkansas",
+        "cities": {
+            "Fayetteville":"FYV",
+            "Little Rock ":"LIT",
+            "Arkansas":"XNA"
+            }
+        },
+        {
+        "state": "California",
+        "cities": {
+            "Burbank":"BUR",
+            "Fresno":"FAT",
+            "Long Beach":"LGB",
+            "Los Angeles":"LAX",
+            "Oakland":"OAK",
+            "Ontario":"ONT",
+            "Palm Springs":"PSP",
+            "Sacramento":"SMF",
+            "San Diego":"SAN",
+            "San Francisco":"SFO",
+            "San Jose":"SJC",
+            "Santa Ana":"SNA",
+            }
+        },
+        {
+        "state": "Colorado",
+        "cities": {
+            "Aspen":"ASE",
+            "Colorado Springs":"COS",
+            "Denver":"DEN",
+            "Grand Junction":"GJT",
+            "Pueblo":"PUB"
+            }
+        },
+        {
+        "state": "Conneticut",
+        "cities": {
+            "Hartford":"BDL",
+            "New Haven":"HVN"
+            }
+        },
+        {
+        "state": "D.C.",
+        "cities": {
+            "Dulles":"IAD",
+            "Washington":"DCA"
+            }
+        },
+        {
+        "state": "Florida",
+        "cities": {
+            "Daytona Beach":"DAB",
+            "Fort Lauderdale":"FLL",
+            "Fort Meyers":"RSW",
+            "Jacksonville":"JAX",
+            "Key West":"EYW",
+            "Miami":"MIA",
+            "Orlando":"MCO",
+            "Pensacola":"PNS",
+            "St. Petersburg":"PIE",
+            "Sarasota":"SRQ",
+            "Tampa":"TPA",
+            "Palm Beach":"PBI",
+            "Panama City":"PFN"
+            }
+        },
+        {
+        "state": "Georgia",
+        "cities": {
+            "Atlanta":"ATL",
+            "Augusta":"AGS",
+            "Savannah":"SAV"
+            }
+        },
+        {
+        "state": "Hawaii",
+        "cities": {
+            "Hilo":"ITO",
+            "Honolulu":"HNL",
+            "Kahului":"OGG",
+            "Kailua":"KOA",
+            "Lihue":"LIH"
+            }
+        },
+        {
+        "state": "Idaho",
+        "cities": {
+            "Boise":"BOI"
+            }
+        },
+        {
+        "state": "Illanois",
+        "cities": {
+            "Chicago Midway":"MDW",
+            "Chicago O'Hare":"ORD",
+            "Moline":"MLI",
+            "Peoria":"PIA"
+            }
+        },
+        {
+        "state": "Indiana",
+        "cities": {
+            "Evansville":"EVV",
+            "Fort Wayne":"FWA",
+            "Indianapolis":"IND"
+            }
+        },
+        {
+        "state": "Louisiana",
+        "cities": {
+            "Baton Rouge":"BTR",
+            "New Orleans":"MSY",
+            "Shreveport":"SHV"
+            }
+        },
+        {
+        "state": "Maine",
+        "cities": {
+            "Augusta":"AUG",
+            "Bangor":"BGR",
+            "Portland":"PWM"
+            }
+        },
+        {
+        "state": "Maryland",
+        "cities": {
+            "Baltimore":"BWI"
+            }
+        },
+        {
+        "state": "Massachusetts",
+        "cities": {
+            "Boston":"BOS",
+            "Hyannis":"HYA",
+            "Nantucket":"ACK",
+            "Worcester":"ORH"
+            }
+        },
+        {
+        "state": "Mexico",
+        "cities": {
+            "Cancún":"CUN"
+            }
+        },
+        {
+        "state": "Michigan",
+        "cities": {
+            "Battlecreek":"BTL",
+            "Detroit":"DET",
+            "Flint":"FNT",
+            "Grand Rapids":"GRR",
+            "Kalamazoo":"AZO",
+            "Lansing":"LAN",
+            "Saginaw":"MBS"
+            }
+        },
+        {
+        "state": "Minnesota",
+        "cities": {
+            "Duluth":"DHL",
+            "Minneapolis":"MSP",
+            "Rochester":"RST"
+            }
+        },
+        {
+        "state": "Mississippi",
+        "cities": {
+            "Gulfport":"GPT",
+            "Jackson":"JAN"
+            }
+        },
+        {
+        "state": "Missouri",
+        "cities": {
+            "Kansas City":"MCI",
+            "St Louis":"STL",
+            "Springfield":"SGF"
+            }
+        },
+        {
+        "state": "Montana",
+        "cities": {
+            "Billings":"BIL"
+            }
+        },
+        {
+        "state": "Nebraska",
+        "cities": {
+            "Lincoln":"LNK",
+            "Omaha":"OMA"
+            }
+        },
+        {
+        "state": "Nevada",
+        "cities": {
+            "Las Vegas":"LAS",
+            "Reno-Tahoe":"RNO"
+            }
+        },
+        {
+        "state": "New Hampshire",
+        "cities": {
+            "Manchester":"MHT"
+            }
+        },
+        {
+        "state": "New Jersey",
+        "cities": {
+            "Atlantic":"ACY",
+            "Newark":"EWR",
+            "Trenton":"TTN"
+            }
+        },
+        {
+        "state": "New Mexico",
+        "cities": {
+            "Albuquerque":"ABQ",
+            "Alamogordo":"ALM"  
+            }
+        },
+        {
+        "state": "New York",
+        "cities": {
+            "Albany":"ALB",
+            "Buffalo":"BUF",
+            "Islip":"ISP",
+            "New York JFK":"JFK",
+            "New York LGA":"LGA",
+            "Newburgh":"SWF",
+            "Rochester":"ROC",
+            "Syracuse":"SYR",
+            "Westchester":"HPN"
+            }
+        },
+        {
+        "state": "North Carolina",
+        "cities": {
+            "Asheville":"AVL",
+            "Charlotte":"CLT",
+            "Fayetteville":"FAY",
+            "Greensboro":"GSO",
+            "Raleigh":"RDU",
+            "Winston-Salem":"INT"
+            }
+        },
+        {
+        "state": "North Dakota",
+        "cities": {
+            "Bismark":"BIS",
+            "Fargo":"FAR"
+            }
+        },
+        {
+        "state": "Ohio",
+        "cities": {
+            "Akron":"CAK",
+            "Cincinnati":"CVG",
+            "Cleveland":"CLE",
+            "Columbus":"CMH",
+            "Dayton":"DAY",
+            "Toledo":"TOL"
+            }
+        },
+        {
+        "state": "Oklahoma",
+        "cities": {
+            "Oklahoma City":"OKC",
+            "Tulsa":"TUL"
+            }
+        },
+        {
+        "state": "Oregon",
+        "cities": {
+            "Eugene":"EUG",
+            "Portland":"PDX",
+            "Portland":"HIO",
+            "Salem":"SLE"
+            }
+        },
+        {
+        "state": "Pennsylvania",
+        "cities": {
+            "Allentown":"ABE",
+            "Erie":"ERI",
+            "Harrisburg":"MDT",
+            "Philadelphia":"PHL",
+            "Pittsburgh":"PIT",
+            "Scranton":"AVP",
+            }
+        },
+        {
+        "state": "Rhode Island",
+        "cities": {
+            "Providence":"PVD"
+            }
+        },
+        {
+        "state": "South Carolina",
+        "cities": {
+            "Charleston":"CHS",
+            "Columbia":"CAE",
+            "Greenville":"GSP",
+            "Myrtle Beach":"MYR"
+            }      
+        },
+        {
+        "state": "South Dakota",
+        "cities": {
+            "Pierre":"PIR",
+            "Rapid City":"RAP",
+            "Sioux Falls":"FSD"
+            }
+        },
+        {
+        "state": "Tennessee",
+        "cities": {
+            "Bristol":"TRI",
+            "Chattanooga":"CHA",
+            "Knoxville":"TYS",
+            "Memphis":"MEM",
+            "Nashville":"BNA"
+            }
+        },
+        {
+        "state": "Texas",
+        "cities": {
+            "Amarillo":"AMA",
+            "Austin":"AUS",
+            "Corpus Christi":"CRP",
+            "Dallas":"DAL",
+            "Fort Worth":"DFW",
+            "El Paso":"ELP",
+            "Houston":"HOU",
+            "Houston":"IAH",
+            "Lubbock":"LBB",
+            "Midland":"MAF",
+            "San Antonio":"SAT"
+            }
+        },
+        {
+        "state": "Utah",
+        "cities": {
+            "Salt Lake":"SLC"
+            }
+        },
+        {
+        "state": "Vermont",
+        "cities": {
+            "Burlington":"BTV",
+            "Montpelier":"MPV",
+            "Rutland":"RUT"
+            }
+        },
+        {
+        "state": "Virginia",
+        "cities": {
+            "Dulles":"IAD",
+            "Newport":"PHF",
+            "Norfolk":"ORF",
+            "Richmond":"RIC",
+            "Roanoke":"ROA"
+            }
+        },
+        {
+        "state": "Washington",
+        "cities": {
+            "Pasco":"PSC",
+            "Seattle":"SEA",
+            "Spokane":"GEG"
+            }
+        },
+        {
+        "state": "West Virginia",
+        "cities": {
+            "Charleston":"CRW",
+            "Clarksburg":"CKB",
+            "Huntington":"HTS"
+            }
+        },
+        {
+        "state": "Winsconsin",
+        "cities": {
+            "Green Bay":"GRG",
+            "Madison":"MSN",
+            "Milwaukee":"MKE"
+            }
+        },
+        {
+        "state": "Wyoming",
+        "cities": {
+            "Casper":"CPR",
+            "Cheyenne":"CYS",
+            "Jackson Hole":"JAC",
+            "Rock Springs":"RKS"
+            }
+        },
+       
+    ]
+

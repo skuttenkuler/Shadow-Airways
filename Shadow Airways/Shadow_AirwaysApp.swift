@@ -11,7 +11,7 @@ import SwiftUI
 struct Shadow_AirwaysApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

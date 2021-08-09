@@ -7,15 +7,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //add navView
+        NavigationView {
+            VStack{
+                
+            HomeContent()
+            NavigationLink(destination:BookTicketView(), label: {
+                Text("Book Flight")
+                    .foregroundColor(Color.red)
+                    .background(Color.blue)
+                
+            })
+            }
+    
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct HomeContent: View {
+    //view block
+    var body: some View {
+        Text("Home Page")
+            
     }
 }
