@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F70B56E26C1EDF8008D93E1 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70B56D26C1EDF8008D93E1 /* DataLoader.swift */; };
+		5F70B57326C1EF13008D93E1 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F70B57226C1EF13008D93E1 /* flights.json */; };
+		5F70B57B26C1FDE3008D93E1 /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F70B57A26C1FDE3008D93E1 /* AirportData.swift */; };
 		5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */; };
 		5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CE626BCEC6C00A3D051 /* ContentView.swift */; };
 		5F9D0CE926BCEC6C00A3D051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D0CE826BCEC6C00A3D051 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F70B56D26C1EDF8008D93E1 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		5F70B57226C1EF13008D93E1 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
+		5F70B57A26C1FDE3008D93E1 /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
 		5F9D0CE126BCEC6C00A3D051 /* Shadow Airways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shadow Airways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_AirwaysApp.swift; sourceTree = "<group>"; };
 		5F9D0CE626BCEC6C00A3D051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 		5F9D0CE326BCEC6C00A3D051 /* Shadow Airways */ = {
 			isa = PBXGroup;
 			children = (
+				5F70B57226C1EF13008D93E1 /* flights.json */,
 				5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */,
 				5F9D0CE626BCEC6C00A3D051 /* ContentView.swift */,
 				5F9D0CE826BCEC6C00A3D051 /* Assets.xcassets */,
@@ -106,6 +113,8 @@
 				5F9D0CEA26BCEC6C00A3D051 /* Preview Content */,
 				5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */,
 				5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */,
+				5F70B56D26C1EDF8008D93E1 /* DataLoader.swift */,
+				5F70B57A26C1FDE3008D93E1 /* AirportData.swift */,
 			);
 			path = "Shadow Airways";
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			files = (
 				5F9D0CEC26BCEC6C00A3D051 /* Preview Assets.xcassets in Resources */,
 				5F9D0CE926BCEC6C00A3D051 /* Assets.xcassets in Resources */,
+				5F70B57326C1EF13008D93E1 /* flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9D0D1D26BCF01B00A3D051 /* TicketView.swift in Sources */,
+				5F70B56E26C1EDF8008D93E1 /* DataLoader.swift in Sources */,
 				5F9D0D1826BCF00A00A3D051 /* BookTicketView.swift in Sources */,
 				5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */,
 				5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */,
+				5F70B57B26C1FDE3008D93E1 /* AirportData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

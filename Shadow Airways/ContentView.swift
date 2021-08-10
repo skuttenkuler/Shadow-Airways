@@ -14,13 +14,12 @@ struct HomeView: View {
             VStack{
                 
             HomeContent()
-            NavigationLink(destination:BookTicketView(), label: {
-                Text("Book Flight")
-                    .foregroundColor(Color.red)
-                    .background(Color.blue)
-                
-            })
-            }
+            }.background(
+                Image("background")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.all)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+            )
     
         }
     }
@@ -29,7 +28,20 @@ struct HomeView: View {
 struct HomeContent: View {
     //view block
     var body: some View {
-        Text("Home Page")
-            
-    }
+        Text("Shadow Airways")
+            .font(.system(size: 40))
+            .bold()
+            .italic()
+            .offset(y: -25)
+        Spacer()
+        
+        NavigationLink(destination:BookTicketView(), label: {
+            Text("Book Flight")
+                .font(.system(size:60))
+                .foregroundColor(Color.white)
+                .background(Color.blue)
+                .cornerRadius(20)
+                
+            })
+}
 }
