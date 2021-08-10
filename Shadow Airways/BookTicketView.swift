@@ -21,9 +21,13 @@ struct BookTicketContent: View {
     //variables
     @State private var departure = Date()
     @State private var returnDate = Date()
-    
+   
     //view block
     var body: some View {
+        //Form
+        Form{
+            
+        
         //Origin
         //Destination
         //Departure Date
@@ -32,6 +36,7 @@ struct BookTicketContent: View {
         DatePicker("Return", selection: $returnDate, in: Date()...)
         //logic to get data and pass to next view
         //Navigation Link to ticket
+        }
         Spacer()
         NavigationLink(destination:TicketView(), label: {
             Text("BOOK FLIGHT")
