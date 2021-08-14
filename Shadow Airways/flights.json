@@ -1,428 +1,980 @@
-data = [
+{
+   "data": [
         {
         "state": "Alabama",
-        "cities": {
-            "Birmingham" : "BHM",
-            "Dothan" : "DHN",
-            "Huntsville":"HSV",
-            "Mobile":"MOB",
-            "Montgomery":"MGM"
+        "cities": [
+            {
+            "name":"Birmingham",
+            "code" : "BHM"
             }
+            {
+            "name":"Dothan",
+            "code" : "DHN"
+            }
+            {
+            "name":"Huntsville",
+            "code":"HSV"
+            }
+            {
+            "name":"Mobile",
+            "code":"MOB"
+            }
+            {
+            "name":"Montgomery",
+            "code":"MGM
+            }
+            ]
         },
         {
         "state": "Alaska",
-        "cities": {
-            "Anchorage":"ANC",
-            "Fairbanks":"FAI",
-            "Juneau":"JNU"
+        "cities": [
+            {
+                "name":"Anchorage",
+                "code":"ANC"
+            },
+            {
+                "name": "Fairbanks",
+                "code":"FAI"
+            },
+            {
+                "name": "Juneau",
+                "code":"JNU"
             }
+        ]
         },
         {
         "state": "Arizona",
-        "cities": {
-            "Flagstaff":"FLG",
-            "Phoenix ":"PHX",
-            "Tucson":"TUS",
-            "Yuma":"YUM"
+        "cities": [
+            {
+                "name":"Flagstaff",
+                "code":"FLG"
+            },
+            {
+                "name":"Phoenix ",
+                "code":"PHX"
+            },
+            {
+                "name":"Tucson",
+                "code":"TUS"
+            },
+            {
+                "name":"Yuma",
+                "code":"YUM"
             }
+            ]
         },
         {
         "state": "Arkansas",
-        "cities": {
-            "Fayetteville":"FYV",
-            "Little Rock ":"LIT",
-            "Arkansas":"XNA"
+        "cities": [
+            {
+                "name":"Fayetteville",
+                "code":"FYV"
+            },
+            {
+                "name":"Little Rock ",
+                "code":"LIT"
+            },
+            {
+                "name":"Arkansas",
+                "code":"XNA"
             }
+            ]
         },
         {
         "state": "California",
-        "cities": {
-            "Burbank":"BUR",
-            "Fresno":"FAT",
-            "Long Beach":"LGB",
-            "Los Angeles":"LAX",
-            "Oakland":"OAK",
-            "Ontario":"ONT",
-            "Palm Springs":"PSP",
-            "Sacramento":"SMF",
-            "San Diego":"SAN",
-            "San Francisco":"SFO",
-            "San Jose":"SJC",
-            "Santa Ana":"SNA",
+        "cities": [
+            {
+                "name":"Burbank",
+                "code":"BUR"
+            },
+            {
+                "name":"Fresno",
+                "code":"FAT"
+            },
+            {
+                "name":"Long Beach",
+                "code":"LGB"
+            },
+            {
+                "name":"Los Angeles",
+                "code":"LAX"
+            },
+            {
+                "name":"Oakland",
+                "code":"OAK"
+            },
+            {
+                "name":"Ontario",
+                "code":"ONT"
+            },
+            {
+                "name":"Palm Springs",
+                "code":"PSP"
+            },
+            {
+                "name":"Sacramento",
+                "code":"SMF"
+            },
+            {
+                "name":"San Diego",
+                "code":"SAN"
+            },
+            {
+                "name":"San Francisco",
+                "code":"SFO"
+            },
+            {
+                "name":"San Jose",
+                "code":"SJC"
+            },
+            {
+                "name":"Santa Ana",
+                "code":"SNA"
             }
+            ]   
         },
         {
         "state": "Colorado",
-        "cities": {
-            "Aspen":"ASE",
-            "Colorado Springs":"COS",
-            "Denver":"DEN",
-            "Grand Junction":"GJT",
-            "Pueblo":"PUB"
+        "cities": [
+            {    
+                "name":"Aspen",
+                "code":"ASE"
+            },
+            {    
+                "name":"Colorado Springs",
+                "code":"COS"
+            },
+            {       
+                "name":"Denver",
+                "code":"DEN"
+            },
+            {    
+                "name":"Grand Junction",
+                "code":"GJT"
+            },
+            {    
+                "name":"Pueblo",
+                "code":"PUB"
             }
+            ]
         },
         {
         "state": "Conneticut",
-        "cities": {
-            "Hartford":"BDL",
-            "New Haven":"HVN"
+        "cities": [
+            {
+                "name":"Hartford",
+                "code":"BDL"
+            },
+            {
+                "name":"New Haven",
+                "code":"HVN"
             }
+        ]
         },
         {
         "state": "D.C.",
-        "cities": {
-            "Dulles":"IAD",
-            "Washington":"DCA"
+        "cities": [
+            {
+                "name":"Dulles",
+                "code":"IAD"
+            },
+            {
+                "name":"Washington",
+                "code":"DCA"
             }
+            ]
         },
         {
         "state": "Florida",
-        "cities": {
-            "Daytona Beach":"DAB",
-            "Fort Lauderdale":"FLL",
-            "Fort Meyers":"RSW",
-            "Jacksonville":"JAX",
-            "Key West":"EYW",
-            "Miami":"MIA",
-            "Orlando":"MCO",
-            "Pensacola":"PNS",
-            "St. Petersburg":"PIE",
-            "Sarasota":"SRQ",
-            "Tampa":"TPA",
-            "Palm Beach":"PBI",
-            "Panama City":"PFN"
+        "cities": [
+            {
+                "name":"Daytona Beach",
+                "code":"DAB"
+            },
+            {
+                "name":"Fort Lauderdale",
+                "code":"FLL"
+            },
+            {
+                "name":"Fort Meyers",
+                "code":"RSW"
+            },
+            {
+                "name":"Jacksonville",
+                "code":"JAX"
+            },
+            {
+                "name":"Key West",
+                "code":"EYW"
+            },
+            {
+                "name":"Miami",
+                "code":"MIA"
+            },
+            {
+                "name":"Orlando",
+                "code":"MCO"
+            },
+            {
+                "name":"Pensacola",
+                "code":"PNS"
+            },
+            {
+                "name":"St. Petersburg",
+                "code":"PIE"
+            },
+            {
+                "name":"Sarasota",
+                "code":"SRQ"
+            },
+            {
+                "name":"Tampa",
+                "code":"TPA"
+            },
+            {
+                "name":"Palm Beach",
+                "code":"PBI"
+            },
+            {
+                "name":"Panama City",
+                "code":"PFN"
             }
+            ]
         },
         {
         "state": "Georgia",
-        "cities": {
-            "Atlanta":"ATL",
-            "Augusta":"AGS",
-            "Savannah":"SAV"
+        "cities": [
+            {
+                "name":"Atlanta",
+                "code":"ATL"
+            },
+            {
+                "name":"Augusta",
+                "code":"AGS"
+            },
+            {
+                "name":"Savannah",
+                "code":"SAV"
             }
+        ]
         },
         {
         "state": "Hawaii",
-        "cities": {
-            "Hilo":"ITO",
-            "Honolulu":"HNL",
-            "Kahului":"OGG",
-            "Kailua":"KOA",
-            "Lihue":"LIH"
+        "cities": [
+            {
+                "name":"Hilo",
+                "code":"ITO"
+            },
+            {
+                "name":"Honolulu",
+                "code":"HNL"
+            },
+            {
+                "name":"Kahului",
+                "code":"OGG"
+            },
+            {
+                "name":"Kailua",
+                "code":"KOA"
+            },
+            {
+                "name":"Lihue",
+                "code":"LIH"
             }
+            ]
         },
         {
         "state": "Idaho",
-        "cities": {
-            "Boise":"BOI"
+        "cities": [
+            {
+                "name":"Boise",
+                "code":"BOI"
             }
+        ]
         },
         {
         "state": "Illanois",
-        "cities": {
-            "Chicago Midway":"MDW",
-            "Chicago O'Hare":"ORD",
-            "Moline":"MLI",
-            "Peoria":"PIA"
+        "cities": [
+            {
+                "name":"Chicago Midway",
+                "code":"MDW"
+            },
+            {
+                "name":"Chicago O'Hare",
+                "code":"ORD"
+            },
+            {
+                "name":"Moline",
+                "code":"MLI"
+            },
+            {
+                "name":"Peoria",
+                "code":"PIA"
             }
+            ]
         },
         {
         "state": "Indiana",
-        "cities": {
-            "Evansville":"EVV",
-            "Fort Wayne":"FWA",
-            "Indianapolis":"IND"
+        "cities": [
+            {
+                "name":"Evansville",
+                "code":"EVV"
+            },
+            {
+                "name":"Fort Wayne",
+                "code":"FWA"
+            },
+            {
+                "name":"Indianapolis",
+                "code":"IND"
             }
+            ]
         },
         {
         "state": "Louisiana",
-        "cities": {
-            "Baton Rouge":"BTR",
-            "New Orleans":"MSY",
-            "Shreveport":"SHV"
-            }
+        "cities": [
+            {
+                "name":"Baton Rouge",
+                "code":"BTR"
+            },
+            {
+                "name":"New Orleans",
+                "code":"MSY"
+            },
+            {
+                "name":"Shreveport",
+                "code":"SHV"
+            },
+            ]
         },
         {
         "state": "Maine",
-        "cities": {
-            "Augusta":"AUG",
-            "Bangor":"BGR",
-            "Portland":"PWM"
+        "cities": [
+            {
+                "name":"Augusta",
+                "code":"AUG"
+            },
+            {
+                "name":"Bangor",
+                "code":"BGR"
+            },
+            {
+                "name":"Portland",
+                "code":"PWM"
             }
+            ]
         },
         {
         "state": "Maryland",
-        "cities": {
-            "Baltimore":"BWI"
+        "cities": [
+            {
+                "name":"Baltimore",
+                "code":"BWI"
             }
+            ]
         },
         {
         "state": "Massachusetts",
-        "cities": {
-            "Boston":"BOS",
-            "Hyannis":"HYA",
-            "Nantucket":"ACK",
-            "Worcester":"ORH"
-            }
+        "cities": [
+            {   
+                "name":"Boston",
+                "code":"BOS"
+            },
+            {   
+                "name":"Hyannis",
+                "code":"HYA"
+            },
+            {   
+                "name":"Nantucket",
+                "code":"ACK"
+            },
+            {   
+                "name":"Worcester",
+                "code":"ORH"
+            },
+        ]
         },
         {
         "state": "Mexico",
-        "cities": {
-            "Cancún":"CUN"
+        "cities": [
+            {
+                "name":"Cancún",
+                "code":"CUN"
             }
+        ]
         },
         {
         "state": "Michigan",
-        "cities": {
-            "Battlecreek":"BTL",
-            "Detroit":"DET",
-            "Flint":"FNT",
-            "Grand Rapids":"GRR",
-            "Kalamazoo":"AZO",
-            "Lansing":"LAN",
-            "Saginaw":"MBS"
-            }
+        "cities": [
+            {
+                "name":"Battlecreek",
+                "code":"BTL"
+            },
+            {
+                "name":"Detroit",
+                "code":"DET"
+            },
+            {
+                "name":"Flint",
+                "code":"FNT"
+            },
+            {
+                "name":"Grand Rapids",
+                "code":"GRR"
+            },
+            {
+                "name":"Kalamazoo",
+                "code":"AZO"
+            },
+            {
+                "name":"Lansing",
+                "code":"LAN"
+            },
+            {
+                "name":"Saginaw",
+                "code":"MBS"
+            },
+            ]
         },
         {
         "state": "Minnesota",
-        "cities": {
-            "Duluth":"DHL",
-            "Minneapolis":"MSP",
-            "Rochester":"RST"
-            }
+        "cities": [
+            {
+                "name":"Duluth",
+                "code":"DHL"
+            },
+            {
+                "name":"Minneapolis",
+                "code":"MSP"
+            },
+            {
+                "name":"Rochester",
+                "code":"RST"
+            },
+        ]
         },
         {
         "state": "Mississippi",
-        "cities": {
-            "Gulfport":"GPT",
-            "Jackson":"JAN"
-            }
+        "cities": [
+            {
+                "name":"Gulfport",
+                "code":"GPT"
+            },
+            {
+                "name":"Jackson",
+                "code":"JAN"
+            },
+        ]
         },
         {
         "state": "Missouri",
-        "cities": {
-            "Kansas City":"MCI",
-            "St Louis":"STL",
-            "Springfield":"SGF"
-            }
+        "cities": [
+            {
+                "name":"Kansas City",
+                "code":"MCI"
+            },
+            {
+                "name":"St Louis",
+                "code":"STL"
+            },
+            {
+                "name":"Springfield",
+                "code":"SGF"
+            },
+        ]
         },
         {
         "state": "Montana",
-        "cities": {
-            "Billings":"BIL"
+        "cities": [
+            {
+                "name":"Billings",
+                "code":"BIL"
             }
+        ]
         },
         {
         "state": "Nebraska",
-        "cities": {
-            "Lincoln":"LNK",
-            "Omaha":"OMA"
+        "cities": [
+            {
+                "name":"Lincoln",
+                "code":"LNK"
+            },
+            {
+                "name":"Omaha",
+                "code":"OMA"
             }
+        ]
         },
         {
         "state": "Nevada",
-        "cities": {
-            "Las Vegas":"LAS",
-            "Reno-Tahoe":"RNO"
-            }
+        "cities": [
+            {
+                "name":"Las Vegas",
+                "code":"LAS"
+            },
+            {
+                "name":"Reno-Tahoe",
+                "code":"RNO"
+            },
+        ]
         },
         {
         "state": "New Hampshire",
-        "cities": {
-            "Manchester":"MHT"
+        "cities": [
+            {
+                "name":"Manchester",
+                "code":"MHT"
             }
+        ]
         },
         {
         "state": "New Jersey",
-        "cities": {
-            "Atlantic":"ACY",
-            "Newark":"EWR",
-            "Trenton":"TTN"
+        "cities": [
+            {
+                "name":"Atlantic",
+                "code":"ACY"
+            },
+            {
+                "name":"Newark",
+                "code":"EWR"
+            },
+            {
+                "name":"Trenton",
+                "code":"TTN"
             }
+        ]
         },
         {
         "state": "New Mexico",
-        "cities": {
-            "Albuquerque":"ABQ",
-            "Alamogordo":"ALM"  
-            }
+        "cities": [
+            {
+                "name":"Albuquerque",
+                "code":"ABQ"
+            },
+            {
+                "name":"Alamogordo",
+                "code":"ALM"
+            },  
+            ]
         },
         {
         "state": "New York",
-        "cities": {
-            "Albany":"ALB",
-            "Buffalo":"BUF",
-            "Islip":"ISP",
-            "New York JFK":"JFK",
-            "New York LGA":"LGA",
-            "Newburgh":"SWF",
-            "Rochester":"ROC",
-            "Syracuse":"SYR",
-            "Westchester":"HPN"
+        "cities": [
+            {
+                "name":"Albany",
+                "code":"ALB"
+            },
+            {
+                "name":"Buffalo",
+                "code":"BUF"
+            },
+            {
+                "name":"Islip",
+                "code":"ISP"
+            },
+            {
+                "name":"New York JFK",
+                "code":"JFK"
+            },
+            {
+                "name":"New York LGA",
+                "code":"LGA"
+            },
+            {
+                "name":"Newburgh",
+                "code":"SWF"
+            },
+            {
+                "name":"Rochester",
+                "code":"ROC"
+            },
+            {
+                "name":"Syracuse",
+                "code":"SYR"
+            },
+            {
+                "name":"Westchester",
+                "code":"HPN"
             }
+        ]
         },
         {
         "state": "North Carolina",
-        "cities": {
-            "Asheville":"AVL",
-            "Charlotte":"CLT",
-            "Fayetteville":"FAY",
-            "Greensboro":"GSO",
-            "Raleigh":"RDU",
-            "Winston-Salem":"INT"
+        "cities": [
+            {
+                "name":"Asheville",
+                "code":"AVL"
+            },
+            {
+                "name":"Charlotte",
+                "code":"CLT"
+            },
+            {
+                "name":"Fayetteville",
+                "code":"FAY"
+            },
+            {
+                "name":"Greensboro",
+                "code":"GSO"
+            },
+            {
+                "name":"Raleigh",
+                "code":"RDU"
+            },
+            {
+                "name":"Winston-Salem",
+                "code":"INT"
             }
+        ]
         },
         {
         "state": "North Dakota",
-        "cities": {
-            "Bismark":"BIS",
-            "Fargo":"FAR"
-            }
+        "cities": [
+            {
+                "name":"Bismark",
+                "code":"BIS"
+            },
+            {
+                "name":"Fargo",
+                "code":"FAR"
+            },
+        ]
         },
         {
         "state": "Ohio",
-        "cities": {
-            "Akron":"CAK",
-            "Cincinnati":"CVG",
-            "Cleveland":"CLE",
-            "Columbus":"CMH",
-            "Dayton":"DAY",
-            "Toledo":"TOL"
+        "cities": [
+            {
+                "name":"Akron",
+                "code":"CAK"
+            },
+            {
+                "name":"Cincinnati",
+                "code":"CVG"
+            },
+            {
+                "name":"Cleveland",
+                "code":"CLE"
+            },
+            {
+                "name":"Columbus",
+                "code":"CMH"
+            },
+            {
+                "name":"Dayton",
+                "code":"DAY"
+            },
+            {
+                "name":"Toledo",
+                "code":"TOL"
             }
+        ]
         },
         {
         "state": "Oklahoma",
-        "cities": {
-            "Oklahoma City":"OKC",
-            "Tulsa":"TUL"
+        "cities": [
+            {
+                "name":"Oklahoma City",
+                "code":"OKC"
+            },
+            {
+                "name":"Tulsa",
+                "code":"TUL"
             }
+        ]
         },
         {
         "state": "Oregon",
-        "cities": {
-            "Eugene":"EUG",
-            "Portland":"PDX",
-            "Portland":"HIO",
-            "Salem":"SLE"
+        "cities": [
+            {
+                "namer":"Eugene",
+                "code":"EUG"
+            },
+            {
+                "namer":"Portland",
+                "code":"PDX"
+            },
+            {
+                "namer":"Portland",
+                "code":"HIO"
+            },
+            {
+                "namer":"Salem",
+                "code":"SLE"
             }
+        ]
         },
         {
         "state": "Pennsylvania",
-        "cities": {
-            "Allentown":"ABE",
-            "Erie":"ERI",
-            "Harrisburg":"MDT",
-            "Philadelphia":"PHL",
-            "Pittsburgh":"PIT",
-            "Scranton":"AVP",
+        "cities": [
+            {
+                "name":"Allentown",
+                "code":"ABE"
+            },
+            {
+                "name":"Erie",
+                "code":"ERI"
+            },
+            {
+                "name":"Harrisburg",
+                "code":"MDT"
+            },
+            {
+                "name":"Philadelphia",
+                "code":"PHL"
+            },
+            {
+                "name":"Pittsburgh",
+                "code":"PIT"
+            },
+            {
+                "name":"Scranton",
+                "code":"AVP"
             }
+        ]
         },
         {
         "state": "Rhode Island",
-        "cities": {
-            "Providence":"PVD"
+        "cities": [
+            {
+                "name":"Providence",
+                "code":"PVD"
             }
+        ]
         },
         {
         "state": "South Carolina",
-        "cities": {
-            "Charleston":"CHS",
-            "Columbia":"CAE",
-            "Greenville":"GSP",
-            "Myrtle Beach":"MYR"
-            }      
+        "cities": [
+            {
+                "name":"Charleston",
+                "code":"CHS"
+            },
+            {
+                "name":"Columbia",
+                "code":"CAE"
+            },
+            {
+                "name":"Greenville",
+                "code":"GSP"
+            },
+            {
+                "name":"Myrtle Beach",
+                "code":"MYR"
+            }
+        ]     
         },
         {
         "state": "South Dakota",
-        "cities": {
-            "Pierre":"PIR",
-            "Rapid City":"RAP",
-            "Sioux Falls":"FSD"
+        "cities": [
+            {
+                "name":"Pierre",
+                "code":"PIR"
+            },
+            {
+                "name":"Rapid City",
+                "code":"RAP"
+            },
+            {
+                "name":"Sioux Falls",
+                "code":"FSD"
             }
+        ]
         },
         {
         "state": "Tennessee",
-        "cities": {
-            "Bristol":"TRI",
-            "Chattanooga":"CHA",
-            "Knoxville":"TYS",
-            "Memphis":"MEM",
-            "Nashville":"BNA"
+        "cities": [
+            {
+                "name":"Bristol",
+                "code":"TRI"
+            },
+            {
+                "name":"Chattanooga",
+                "code":"CHA"
+            },
+            {
+                "name":"Knoxville",
+                "code":"TYS"
+            },
+            {
+                "name":"Memphis",
+                "code":"MEM"
+            },
+            {
+                "name":"Nashville",
+                "code":"BNA"
             }
+        ]
         },
         {
         "state": "Texas",
-        "cities": {
-            "Amarillo":"AMA",
-            "Austin":"AUS",
-            "Corpus Christi":"CRP",
-            "Dallas":"DAL",
-            "Fort Worth":"DFW",
-            "El Paso":"ELP",
-            "Houston":"HOU",
-            "Houston":"IAH",
-            "Lubbock":"LBB",
-            "Midland":"MAF",
-            "San Antonio":"SAT"
+        "cities": [
+            {
+                "name":"Amarillo",
+                "code":"AMA"
+            },
+            {
+                "name":"Austin",
+                "code":"AUS"
+            },
+            {
+                "name":"Corpus Christi",
+                "code":"CRP"
+            },
+            {
+                "name":"Dallas",
+                "code":"DAL"
+            },
+            {
+                "name":"Fort Worth",
+                "code":"DFW"
+            },
+            {
+                "name":"El Paso",
+                "code":"ELP"
+            },
+            {
+                "name":"Houston",
+                "code":"HOU"
+            },
+            {
+                "name":"Houston",
+                "code":"IAH"
+            },
+            {
+                "name":"Lubbock",
+                "code":"LBB"
+            },
+            {
+                "name":"Midland",
+                "code":"MAF"
+            },
+            {
+                "name":"San Antonio",
+                "code":"SAT"
             }
+        ]
         },
         {
         "state": "Utah",
-        "cities": {
-            "Salt Lake":"SLC"
+        "cities": [
+            {
+                "name":"Salt Lake",
+                "code":"SLC"
             }
+        ]
         },
         {
         "state": "Vermont",
-        "cities": {
-            "Burlington":"BTV",
-            "Montpelier":"MPV",
-            "Rutland":"RUT"
+        "cities": [
+            {
+                "name":"Burlington",
+                "code":"BTV"
+            },
+            {
+                "name":"Montpelier",
+                "code":"MPV"
+            },
+            {
+                "name":"Rutland",
+                "code":"RUT"
             }
+        ]
         },
         {
         "state": "Virginia",
-        "cities": {
-            "Dulles":"IAD",
-            "Newport":"PHF",
-            "Norfolk":"ORF",
-            "Richmond":"RIC",
-            "Roanoke":"ROA"
+        "cities": [
+            {
+                "name":"Dulles",
+                "code":"IAD"
+            },
+            {
+                "name":"Newport",
+                "code":"PHF"
+            },
+            {
+                "name":"Norfolk",
+                "code":"ORF"
+            },
+            {
+                "name":"Richmond",
+                "code":"RIC"
+            },
+            {
+                "name":"Roanoke",
+                "code":"ROA"
             }
+        ]
         },
         {
         "state": "Washington",
-        "cities": {
-            "Pasco":"PSC",
-            "Seattle":"SEA",
-            "Spokane":"GEG"
+        "cities": [
+            {
+                "name":"Pasco",
+                "code":"PSC"
+            },
+            {
+                "name":"Seattle",
+                "code":"SEA"
+            },
+            {
+                "name":"Spokane",
+                "code":"GEG"
             }
+        ]
         },
         {
         "state": "West Virginia",
-        "cities": {
-            "Charleston":"CRW",
-            "Clarksburg":"CKB",
-            "Huntington":"HTS"
+        "cities": [
+            {
+                "name":"Charleston",
+                "code":"CRW"
+            },
+            {
+                "name":"Clarksburg",
+                "code":"CKB"
+            },
+            {
+                "name":"Huntington",
+                "code":"HTS"
             }
+        ]
         },
         {
         "state": "Winsconsin",
-        "cities": {
-            "Green Bay":"GRG",
-            "Madison":"MSN",
-            "Milwaukee":"MKE"
+        "cities": [
+            {
+                "name":"Green Bay",
+                "code":"GRG"
+            },
+            {
+                "name":"Madison",
+                "code":"MSN"
+            },
+            {
+                "name":"Milwaukee",
+                "code":"MKE"
             }
+        ]
         },
         {
         "state": "Wyoming",
-        "cities": {
-            "Casper":"CPR",
-            "Cheyenne":"CYS",
-            "Jackson Hole":"JAC",
-            "Rock Springs":"RKS"
+        "cities": [
+            {
+                "name":"Casper",
+                "code":"CPR"
+            },
+            {
+                "name":"Cheyenne",
+                "code":"CYS"
+            },
+            {
+                "name":"Jackson Hole",
+                "code":"JAC"
+            },
+            {
+                "name":"Rock Springs",
+                "code":"RKS"
             }
-        },
-       
-    ]
+        ]
+        }
+]
 

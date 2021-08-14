@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F65BE4C26C30B6A00212B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F65BE4B26C30B6A00212B8D /* ViewController.swift */; };
+		5F19F34726C87313003B0AAD /* AirportTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19F34626C87313003B0AAD /* AirportTable.swift */; };
 		5F70B57326C1EF13008D93E1 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F70B57226C1EF13008D93E1 /* flights.json */; };
 		5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */; };
 		5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CE626BCEC6C00A3D051 /* ContentView.swift */; };
@@ -15,8 +15,9 @@
 		5F9D0CEC26BCEC6C00A3D051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D0CEB26BCEC6C00A3D051 /* Preview Assets.xcassets */; };
 		5F9D0CF726BCEC6C00A3D051 /* Shadow_AirwaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0CF626BCEC6C00A3D051 /* Shadow_AirwaysTests.swift */; };
 		5F9D0D0226BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D0126BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift */; };
-		5F9D0D1826BCF00A00A3D051 /* BookTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */; };
 		5F9D0D1D26BCF01B00A3D051 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */; };
+		5FD0148D26C603EF00B8D092 /* BookTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD0148C26C603EF00B8D092 /* BookTicketView.swift */; };
+		5FED7EB826C5853C00742001 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED7EB726C5853C00742001 /* Airports.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F65BE4B26C30B6A00212B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F19F34626C87313003B0AAD /* AirportTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTable.swift; sourceTree = "<group>"; };
 		5F70B57226C1EF13008D93E1 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 		5F9D0CE126BCEC6C00A3D051 /* Shadow Airways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shadow Airways.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_AirwaysApp.swift; sourceTree = "<group>"; };
@@ -51,8 +52,9 @@
 		5F9D0CFD26BCEC6D00A3D051 /* Shadow AirwaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shadow AirwaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D0D0126BCEC6D00A3D051 /* Shadow_AirwaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_AirwaysUITests.swift; sourceTree = "<group>"; };
 		5F9D0D0326BCEC6D00A3D051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketView.swift; sourceTree = "<group>"; };
 		5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		5FD0148C26C603EF00B8D092 /* BookTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketView.swift; sourceTree = "<group>"; };
+		5FED7EB726C5853C00742001 /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F19F34326C86FD2003B0AAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FED7EB726C5853C00742001 /* Airports.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F19F34426C87285003B0AAD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0148C26C603EF00B8D092 /* BookTicketView.swift */,
+				5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5F19F34526C872F8003B0AAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5F19F34626C87313003B0AAD /* AirportTable.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		5F9D0CD826BCEC6C00A3D051 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +130,15 @@
 		5F9D0CE326BCEC6C00A3D051 /* Shadow Airways */ = {
 			isa = PBXGroup;
 			children = (
+				5F19F34526C872F8003B0AAD /* Components */,
+				5F19F34426C87285003B0AAD /* Screens */,
+				5F19F34326C86FD2003B0AAD /* Model */,
 				5F70B57226C1EF13008D93E1 /* flights.json */,
 				5F9D0CE426BCEC6C00A3D051 /* Shadow_AirwaysApp.swift */,
 				5F9D0CE626BCEC6C00A3D051 /* ContentView.swift */,
 				5F9D0CE826BCEC6C00A3D051 /* Assets.xcassets */,
 				5F9D0CED26BCEC6C00A3D051 /* Info.plist */,
 				5F9D0CEA26BCEC6C00A3D051 /* Preview Content */,
-				5F9D0D1726BCF00A00A3D051 /* BookTicketView.swift */,
-				5F9D0D1C26BCF01B00A3D051 /* TicketView.swift */,
-				5F65BE4B26C30B6A00212B8D /* ViewController.swift */,
 			);
 			path = "Shadow Airways";
 			sourceTree = "<group>";
@@ -273,9 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9D0D1D26BCF01B00A3D051 /* TicketView.swift in Sources */,
-				5F9D0D1826BCF00A00A3D051 /* BookTicketView.swift in Sources */,
+				5FED7EB826C5853C00742001 /* Airports.swift in Sources */,
+				5F19F34726C87313003B0AAD /* AirportTable.swift in Sources */,
+				5FD0148D26C603EF00B8D092 /* BookTicketView.swift in Sources */,
 				5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */,
-				5F65BE4C26C30B6A00212B8D /* ViewController.swift in Sources */,
 				5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
