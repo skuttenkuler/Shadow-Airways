@@ -24,8 +24,11 @@ struct BookTicketContent: View {
     //view block
     var body: some View {
         //Form
+        AirportTable()
         Form{
+        
         //Origin
+        
         //Destination
         //Departure Date
         DatePicker("Departure", selection: $departure, in: Date()...)

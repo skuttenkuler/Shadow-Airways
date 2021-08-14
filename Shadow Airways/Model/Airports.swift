@@ -7,15 +7,12 @@
 
 import Foundation
 
-
-struct Airports: Codable {
-    let data: [States]
-}
-struct States: Codable {
+struct States: Codable, Identifiable {
+    let id: Int
     let state: String
-    let cities: [Cities]
+ //   let cities: [Cities]
 }
-struct Cities : Codable {
-    var name: String
-    var code: String
-}
+//struct Cities : Codable {
+//    var name: String
+//    var code: String
+//}
