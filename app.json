@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ShadowAirways",
+    "slug": "ShadowAirways",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ShadowAirways"
+}
