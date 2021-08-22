@@ -3,7 +3,9 @@ import { View, Text } from "react-native";
 
 
 export default function Ticket(){
+    return(
     <View>
         <Text>Yo</Text>
     </View>
+    )
 }
