@@ -25,7 +25,7 @@ function MyStack() {
       <Stack.Screen 
         name="Home" 
         component={Home} 
-        options={{ title: 'Home' }}
+        options={{ title: 'Shadow Airways' }}
       />
       <Stack.Screen 
         name="Book Ticket" 
