@@ -28,7 +28,7 @@ struct BookTicketContent: View {
         Form{
         
         //Origin
-        
+       
         //Destination
         //Departure Date
         DatePicker("Departure", selection: $departure, in: Date()...)

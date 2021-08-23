@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F14CAC126D42A2C00647BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14CAC026D42A2C00647BAE /* ViewController.swift */; };
+		5F14CAC326D42A9200647BAE /* PrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14CAC226D42A9200647BAE /* PrinterView.swift */; };
 		5F19F34926C87798003B0AAD /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19F34826C87798003B0AAD /* DataLoader.swift */; };
 		5F19F34B26C87C2F003B0AAD /* AirportTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19F34A26C87C2F003B0AAD /* AirportTable.swift */; };
 		5F70B57326C1EF13008D93E1 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F70B57226C1EF13008D93E1 /* flights.json */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F14CAC026D42A2C00647BAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F14CAC226D42A9200647BAE /* PrinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterView.swift; sourceTree = "<group>"; };
 		5F19F34826C87798003B0AAD /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		5F19F34A26C87C2F003B0AAD /* AirportTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTable.swift; sourceTree = "<group>"; };
 		5F70B57226C1EF13008D93E1 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				5F19F34A26C87C2F003B0AAD /* AirportTable.swift */,
+				5F14CAC226D42A9200647BAE /* PrinterView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				5F9D0CED26BCEC6C00A3D051 /* Info.plist */,
 				5F9D0CEA26BCEC6C00A3D051 /* Preview Content */,
 				5F19F34826C87798003B0AAD /* DataLoader.swift */,
+				5F14CAC026D42A2C00647BAE /* ViewController.swift */,
 			);
 			path = "Shadow Airways";
 			sourceTree = "<group>";
@@ -307,7 +313,9 @@
 				5F19F34926C87798003B0AAD /* DataLoader.swift in Sources */,
 				5FD0148D26C603EF00B8D092 /* BookTicketView.swift in Sources */,
 				5F9D0CE726BCEC6C00A3D051 /* ContentView.swift in Sources */,
+				5F14CAC326D42A9200647BAE /* PrinterView.swift in Sources */,
 				5F9D0CE526BCEC6C00A3D051 /* Shadow_AirwaysApp.swift in Sources */,
+				5F14CAC126D42A2C00647BAE /* ViewController.swift in Sources */,
 				5F19F34B26C87C2F003B0AAD /* AirportTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
