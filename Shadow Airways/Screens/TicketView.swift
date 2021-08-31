@@ -9,12 +9,21 @@ import SwiftUI
 
 struct TicketView: View {
     var body: some View {
-        Text("TICKET")
-    }
+        VStack{
+            
+        Text("BOOK TICKET")
+
+        }.background(
+            Image("ticket")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        )
 }
 
 struct TicketView_Previews: PreviewProvider {
     static var previews: some View {
         TicketView()
     }
+}
 }
