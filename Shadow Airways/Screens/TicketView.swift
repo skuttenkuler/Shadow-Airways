@@ -11,10 +11,13 @@ struct TicketView: View {
     var body: some View {
         VStack{
             
-        Text("BOOK TICKET")
+            Text("FROM:").offset(x: -50,y: -160).font(.system(size:25).weight(.heavy))
+        Text("TO:").offset(x: -70,y: -130).font(.system(size:25).weight(.heavy))
+            Text("Departing:").offset(x: 20,y: 170).font(.system(size:25).weight(.heavy))
+        Text("Date:").offset(x: -130,y: 260).font(.system(size:25).weight(.heavy))
 
         }.background(
-            Image("ticket")
+            Image("Ticket2")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
