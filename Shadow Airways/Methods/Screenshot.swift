@@ -9,18 +9,18 @@ import Foundation
 import SwiftUI
 
 extension View {
-    func snapshot() -> UIImage {
-        let controller = UIHostingController(rootView: self)
-        let view = controller.view
-        
-        let size = controller.view.intrinsicContentSize
-        view?.bounds = CGRect(origin: .zero, size: size)
-        view?.backgroundColor = .clear
-        
-        let renderer = UIGraphicsImageRenderer(size: size)
-        
-        return renderer.image { _ in
-            view?.drawHierarchy(in: controller.view.bounds, afterScreenUpdates: true)
+    func snapshot(_ shouldSave: Bool = true) -> UIImage? {
+            var screenshotImage :UIImage?
+            let layer = UIApplication.shared.keyWindow!.layer
+            let scale = UIScreen.main.scale
+            UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, scale);
+            guard let context = UIGraphicsGetCurrentContext() else {return nil}
+            layer.render(in:context)
+            screenshotImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            if let image = screenshotImage, shouldSave {
+                UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+            }
+            return screenshotImage
         }
-    }
 }
