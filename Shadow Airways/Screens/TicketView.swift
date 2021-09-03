@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct TicketView: View {
+ 
     var body: some View {
         ZStack{
             VStack{
             Text("FROM:").offset(x: -30,y: -95).font(.system(size:25).weight(.heavy))
             Text("TO:").offset(x: -50,y: -80).font(.system(size:25).weight(.heavy))
-            Text("Departing:").offset(x: 35,y: 138).font(.system(size:25).weight(.heavy))
+            Text("Departing: ").offset(x: 35,y: 138).font(.system(size:25).weight(.heavy))
             Text("Date:").offset(x: -95,y: 190).font(.system(size:25).weight(.heavy))
         Button("Book"){
             let image = snapshot()

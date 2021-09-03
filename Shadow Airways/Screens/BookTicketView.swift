@@ -19,7 +19,6 @@ struct BookTicketView: View {
 struct BookTicketContent: View {
     //variables
     @State private var departure = Date()
-    @State private var returnDate = Date()
    
     //view block
     var body: some View {
@@ -28,12 +27,9 @@ struct BookTicketContent: View {
         Form{
         
         //Origin
-       
         //Destination
         //Departure Date
         DatePicker("Departure", selection: $departure, in: Date()...)
-        //Return Date
-        DatePicker("Return", selection: $returnDate, in: Date()...)
         //logic to get data and pass to next view
         //Navigation Link to ticket
         
@@ -46,7 +42,7 @@ struct BookTicketContent: View {
                 .background(Color.blue)
                 .cornerRadius(20)
                 
-            })
+        })
         }
     }
 }
